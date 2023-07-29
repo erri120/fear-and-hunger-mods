@@ -2,6 +2,18 @@
 
 This mod removes the random-aspect of the coin toss in Fear & Hunger and forces it to always land on tails.
 
+## Installation
+
+Download the [`erri120_TailsNeverFails.js`](./erri120_TailsNeverFails.js) file and move it into the `www/js/plugins` folder. Update `www/js/plugins.js` to include the following at the end:
+
+```javascript
+,{"name":"erri120_TailsNeverFails","status":true,"description":""}
+```
+
+**NOTE:** The comma at the start is important!
+
+## Technical Details
+
 Coin flips are done using the "Control Variables" operation:
 
 ![Screenshot of the editor](./assets/screenshot-editor.png)

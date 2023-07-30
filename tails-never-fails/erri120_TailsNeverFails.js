@@ -38,7 +38,7 @@
             }
         }
 
-        this._params = toReplace;
+        this._params = toReplace.slice();
         return __old_Game_Interpreter_command122.bind(this)();
     }
 })();

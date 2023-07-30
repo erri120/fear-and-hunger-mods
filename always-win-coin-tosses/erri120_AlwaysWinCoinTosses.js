@@ -1,6 +1,6 @@
 /*:
 * @author erri120
-* @plugindesc Force coin toss to always land on tails.
+* @plugindesc Always win coin tosses
 */
 
 // GitHub: https://github.com/erri120/fear-and-hunger-mods
@@ -14,8 +14,8 @@
         14, // variable "coin_flip"
         0,  // SET the variable
         2,  // set the variable to a RANDOM value
-        1,  // HEADS
-        2   // TAILS
+        1,  // SUCCESS
+        2   // FAILURE
     ];
 
     const toReplace = [
@@ -23,7 +23,7 @@
         14, // variable "coin_flip"
         0,  // SET the variable
         0,  // use a CONSTANT value
-        2   // TAILS
+        1   // SUCCESS
     ];
 
     // partial replacement

@@ -1,3 +1,11 @@
+/*:
+* @author erri120
+* @plugindesc Fixes issues related to time and FPS.
+*/
+
+// GitHub: https://github.com/erri120/fear-and-hunger-mods
+// License: https://github.com/erri120/fear-and-hunger-mods/blob/main/LICENSE
+
 (function() {
     const __old_Game_System_initialize = Game_System.prototype.initialize;
     const __old_Game_System_onAfterLoad = Game_System.prototype.onAfterLoad;

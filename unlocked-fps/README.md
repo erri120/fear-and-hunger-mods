@@ -39,8 +39,7 @@ for the details.
 
 ### Game Timer Fix
 
-The game has a timer that also uses frame counts. If you played the game before, you know that the
-timer ||is 30 mins long. After 30 mins, Le'garde will be dead||. Similarly with playtime, the timer
+The game has a timer that also uses frame counts. Similar with playtime, the timer
 is also broken when you run the game at something other than locked 60 FPS.
 
 If you run the game at 144 FPS, the timer will ellapse x2.4 times faster. If you play at 30 FPS,

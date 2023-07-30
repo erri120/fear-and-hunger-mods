@@ -91,3 +91,5 @@ This `update` function gets called every frame, meaning every frame we're decrea
 field by 1 until it reaches `0`. Once it has reached `0`, `executeCommand` gets called which will
 run through the list of commands and increase the game timer variable.
 
+Once again, instead of using frames we can just use dates.
+

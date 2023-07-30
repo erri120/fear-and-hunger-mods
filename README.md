@@ -4,8 +4,6 @@ All mods I created for the game Fear & Hunger.
 
 ## Always Win Coin Tosses
 
-Forces every coin toss to always land on tails.
-
 See the [README](./always-win-coin-tosses/README.md) for details.
 
 ## Unlocked FPS

@@ -37,7 +37,16 @@ menu to display the current playtime for that particular save.
 Fixing this is done by simply using dates instead of frames. See [`erri120_UnlockedFPS.js`](./erri120_UnlockedFPS.js)
 for the details.
 
-### 30 Minutes
+### Game Timer Fix
 
-TODO
+The game has a timer that also uses frame counts. If you played the game before, you know that the
+timer ||is 30 mins long. After 30 mins, Le'garde will be dead||. Similarly with playtime, the timer
+is also broken when you run the game at something other than locked 60 FPS.
+
+If you run the game at 144 FPS, the timer will ellapse x2.4 times faster. If you play at 30 FPS,
+the timer will take twice as long.
+
+Fear & Hunger uses a Common Event for the timer:
+
+![Screnshot of the editor](./assets/screenshot-editor.png)
 
